@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+	Blue Dream
+	Written by Teylor Feliz  http://www.admixweb.com
+*/
+
+
+.table_ {
+	
+	border:1px solid black;
+	border-collapse:collapse;
+	color:#f2f2f2;
+	font:normal 15px Arial, helvetica, sans-serif;
+	text-align:center;
+	width: 100%;
+}
+.table_ caption {
+	border:1px solid #5C443A;
+	color:#f2f2f2;
+	font-weight:bold;
+	letter-spacing:20px;
+	padding:6px 4px 8px 0px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.table_ td, th {
+	color:black; /*color de la letra*/
+	padding:0.4em;
+	text-align:center;
+}
+.table_ tr { 
+	border:1px solid black; 
+	text-align:center;
+}
+.table_encabezado  { 
+	border:1px solid black;
+	background-color:#f2f2f2;
+}
+.table_ thead th, tfoot th { 
+	background:#303F93;
+	color:white;
+	padding:3px 10px 3px 10px;
+	text-align:left;
+	text-transform:uppercase;
+	text-align:center;
+}
+.table_ tbody td a { 
+	color:#363636;
+	text-decoration:none;
+	text-align:center;
+}
+.table_ tbody td a:visited { 
+	color:gray;
+	text-decoration:line-through;
+}
+.table_ tbody td a:hover {
+	text-decoration:underline;
+	text-align:center;
+}
+.table_ tbody th a { 
+	color:black;
+	font-weight:normal;
+	text-align:center;
+	text-decoration:none;
+}
+.table_ tbody th a:hover {
+	color:#363636;
+}
+.table_ tbody td+td+td+td a { 
+	background-image:url('bullet_blue.png');
+	background-position:left center;
+	background-repeat:no-repeat;
+	color:#03476F;
+	text-align:center;
+	padding-left:15px;
+}
+.table_ tbody td+td+td+td a:visited { 
+	background-position:left center;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+.table_ tbody th, tbody td { 
+	text-align:left;
+	vertical-align:top;
+	text-align:center;
+}
+.table_ tfoot td {
+	background:#5C443A;
+	color:#FFFFFF;
+	padding-top:3px;
+	text-align:center;
+}
+.table_ odd { 
+	background:#fff;
+	text-align:center;
+}
+.table_ tbody tr:hover { 
+	background:#99BCBF; /*azul oscuro*/
+	border:1px solid #03476F;
+	color:#000000;
+	text-align:center;
+}
